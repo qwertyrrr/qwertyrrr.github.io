@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #F78500;
+  color: #EE451F;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F78500;
+  color: #EE451F;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F78500;
+  background: #EE451F;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F78500;
+  background: #EE451F;
 }
 
 ::selection {
   color: #fff;
-  background: #F78500;
+  background: #EE451F;
 }
 
 .fh5co-nav {
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a span {
-  background: #F78500;
+  background: #EE451F;
   padding: 4px 10px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
-  background: #F78500 !important;
+  background: #EE451F !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 }
 .services:hover .icon, .services:focus .icon {
-  background: #F78500;
+  background: #EE451F;
 }
 .services:hover .icon i, .services:focus .icon i {
   color: #fff;
@@ -613,7 +613,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F78500;
+  color: #EE451F;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1460,9 +1460,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #F78500;
+  background: #EE451F;
   color: #fff;
-  border: 2px solid #F78500;
+  border: 2px solid #EE451F;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #437be2 !important;
@@ -1470,11 +1470,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F78500;
-  border: 2px solid #F78500;
+  color: #EE451F;
+  border: 2px solid #EE451F;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F78500;
+  background: #EE451F;
   color: #fff;
 }
 
