@@ -1,0 +1,141 @@
+.text-justify {
+    text-align: justify;
+}
+
+.btn-theme {
+    color: #fff;
+    background: #F78500;
+    padding: 8px 15px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    min-width: 50%;
+    text-align: center;
+}
+
+.btn-theme:hover {
+    color: #fff;
+    -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.p-default {
+    padding: 7em 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.w100 {
+    width: 100%!important;
+}
+
+.sidebar-sticky h5 {
+    text-indent: -1em;
+    margin-left: 1em;
+}
+
+#fh5co-hero.small {
+    height: 300px;
+    min-height: 300px;
+}
+
+.flex-viewport {
+    height: 300px;
+    min-height: 300px;
+}
+
+#fh5co-hero.small .flexslider .slider-text {
+    height: 300px;
+    min-height: 300px;
+}
+
+#fh5co-hero.small .flexslider .slides li {
+    height: 300px;
+    min-height: 300px;
+}
+/*
+.nb_stuck {
+    background-color: #fff;
+}*/
+
+@media all and (min-width: 769px) {
+    .fh5co-nav.fixed {
+        position: fixed;
+        background-color: white;
+    }
+}
+
+
+.fh5co-nav.fixed .top {
+    display: none;
+    transition-delay: 100;
+}
+
+.share-social a {
+    padding: 7px 7px;
+    color: black;
+}
+
+.share-social a:hover {
+    color: #F78500;
+}
+
+
+.sidebar__burger {
+    display: none;
+}
+
+/*.sidebar__list {
+    height: 80vh;
+    overflow-y: auto;
+}
+*/
+
+.site a {
+    padding: 7px 7px;
+    margin-left: 10px;
+}
+
+@media all and (max-width: 769px) {
+    .sidebar__list {
+        display: none;
+        height: 50vh;
+        overflow-y: auto;
+    }
+    .sidebar_list.active {
+        display: block;
+    }
+    .sidebar__burger {
+        display: block;
+        position: absolute;
+        padding: 10px;
+        top:0;
+    }
+    .sidebar-sticky {
+        z-index: 100;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .sidebar-sticky.is_stuck {
+        position: absolute;
+        top:0!important;
+    }
+}
